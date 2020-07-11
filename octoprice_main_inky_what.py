@@ -8,7 +8,7 @@
 # You also need to update store_prices.py to include your own API access credentials and tariff.
 
 
-from inky import InkyPHAT
+from inky import InkyWHAT
 #from font_hanken_grotesk import HankenGroteskBold, HankenGroteskMedium  # should you choose to switch to gross fonts
 #from font_intuitive import Intuitive
 from font_fredoka_one import FredokaOne  # this is the font we're currently using
@@ -22,7 +22,7 @@ import pytz
 import time
 
 ##  -- Display type = red. Change below if you have the yellow
-inky_display = InkyPHAT("red")
+inky_display = InkyWHAT("red")
 ## --   ----------------------------------------------------
 
 inky_display.set_border(inky_display.WHITE)
